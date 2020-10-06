@@ -15,7 +15,7 @@ const Items = (props) => {
   // Multiple items on the list, render a list.
   if (items.length > 1) {
     return (
-      <ul>
+      <ul className="items">
         {items.map(item => <li key={item}>{item}</li>)}
       </ul>
     );
